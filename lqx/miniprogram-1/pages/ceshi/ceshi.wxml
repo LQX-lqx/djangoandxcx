@@ -1,0 +1,9 @@
+<!--pages/ceshi/ceshi.wxml-->
+<text>测试页</text>
+<view>
+  <view bindtap="test_network">测试网页请求</view>
+  <button bindtap='save'>保存</button>
+  <button bindtap="read">读取</button>
+  <button bindtap="remove">缓存</button>
+  <button bindtap="clear">清除储存</button>
+</view>

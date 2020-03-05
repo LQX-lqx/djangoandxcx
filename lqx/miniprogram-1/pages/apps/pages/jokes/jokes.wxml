@@ -1,0 +1,5 @@
+<!--pages/jokes/jokes.wxml-->
+<text>你要的joke\n</text>
+<view wx:for="{{content}}">
+<textarea>{{item.content}}</textarea>
+</view>
